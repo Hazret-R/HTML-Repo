@@ -1,3 +1,15 @@
-p:hover {
-    color: purple;
+a:hover {
+    color: blueviolet;
+}
+
+a:visited {
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+td {
+    color: blue;
 }
