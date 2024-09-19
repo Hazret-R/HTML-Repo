@@ -9,7 +9,3 @@ a:visited {
 tr:nth-child(even) {
     background-color: lightblue;
 }
-
-td {
-    color: blue;
-}
