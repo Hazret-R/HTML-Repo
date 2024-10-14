@@ -72,3 +72,56 @@ footer {
     bottom: 0;
     text-align: center;
 }
+
+@media screen and (max-width: 1000px) {
+    .tile {
+        width: 400px;
+        background-color: burlywood;
+        color: black;
+    }
+
+    .tile:nth-child(1) {
+        top: 40px;
+        left: 5px;
+    }
+    
+    .tile:nth-child(2) {
+        top: 250px;
+        left: 5px;
+    }
+    
+    .tile:nth-child(3) {
+        top: 460px;
+        left: 5px;
+    }
+    
+    .tile:nth-child(4) {
+        top: 670px;
+        left: 5px;
+    }
+    
+    .tile:nth-child(5) {
+        top: 880px;
+        left: 5px;
+    }
+    
+    .tile:nth-child(6) {
+        top: 1090px;
+        left: 5px;
+    }
+    
+    .tile:nth-child(7) {
+        top: 1300px;
+        left: 5px;
+    }
+    
+    .tile:nth-child(8) {
+        top: 1510px;
+        left: 5px;
+    }
+    
+    .tile:nth-child(9) {
+        top: 1720px;
+        left: 5px;
+    }
+}
