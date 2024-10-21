@@ -1,0 +1,146 @@
+:root {
+    --dark-slate-color: darkslategray;
+    --white-smoke-color: whitesmoke;
+    --orange-color: lightblue;
+    --light-gray-color: lightgray;
+    --grey-color: grey;
+    --yellow-color: rgb(181, 175, 206);
+    --red-color: blue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.menu {
+    background-color: var(--dark-slate-color);
+    color: var(--white-smoke-color);
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    color: var(--white-smoke-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: var(--orange-color);
+}
+
+#mode-toggle {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background-color: var(--orange-color);
+    color: var(--white-smoke-color);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.content {
+    width: 800px;
+    margin: 20px auto;
+}
+
+.content section {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 24px;
+    color: var(--dark-slate-color);
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: var(--light-gray-color);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+article {
+    background-color: var(--white-smoke-color);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px var(--grey-color);
+}
+
+.colofon {
+    background-color: var(--dark-slate-color);
+    color: var(--white-smoke-color);
+    padding: 20px;
+    text-align: center;
+}
+
+.colofon .column {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.colofon ul {
+    list-style: none;
+}
+
+.colofon ul li {
+    margin-bottom: 10px;
+}
+
+.advert {
+    position: fixed;
+    left: 0;
+    top: 100px;
+    width: 200px;
+    background-color: var(--orange-color);
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+.banner {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: var(--yellow-color);
+    text-align: center;
+}
+
+.banner a {
+    font-weight: bold;
+    color: var(--red-color);
+    text-decoration: none;
+}
+
+.chat-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--orange-color);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
