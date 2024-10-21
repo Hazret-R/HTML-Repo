@@ -1,0 +1,64 @@
+:root {
+    /* Voeg hier de benodigde CSS-variabelen toe */
+    --default-bg: rgb(0, 128, 0);
+    --default-text-color: rgb(255, 0, 0);
+    --default-font-size: 24pt;
+    --default-padding: 100px;
+    --default-border-color: rgb(0, 0, 255);
+    --secondary-bg: rgb(255, 192, 205);
+    --secondary-text-color: rgb(0, 128, 0);
+    --default-margin: 100px;
+    --default-border: 4px;
+    --default-spacing: 100px;
+}
+
+.content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.oefening {
+    min-height: 200px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.oefening1 {
+    background-color: var(--default-bg);
+}
+
+.oefening2 {
+    color: var(--default-text-color);
+}
+
+.oefening3 {
+    font-size: var(--default-font-size);
+}
+
+.oefening4 {
+    padding: var(--default-padding);
+}
+
+.oefening5 {
+    border: solid var(--default-border-color);
+}
+
+.oefening6 {
+    background-color: var(--secondary-bg);
+}
+
+.oefening7 {
+    color: var(--secondary-text-color);
+}
+
+.oefening8 {
+    margin: var(--default-margin);
+}
+
+.oefening9 {
+    border: var(--default-border) solid;
+}
+
+.oefening10 p {
+    margin-bottom: var(--default-spacing);
+}
