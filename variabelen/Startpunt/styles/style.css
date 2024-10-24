@@ -1,10 +1,10 @@
 :root {
     --dark-slate-color: darkslategray;
     --white-smoke-color: whitesmoke;
-    --orange-color: lightblue;
+    --light-blue: lightblue;
     --light-gray-color: lightgray;
     --grey-color: grey;
-    --yellow-color: rgb(181, 175, 206);
+    --light-purple: rgb(181, 175, 206);
     --red-color: blue;
 }
 
@@ -43,14 +43,14 @@ body {
 }
 
 .menu ul li a:hover {
-    color: var(--orange-color);
+    color: var(--light-blue);
 }
 
 #mode-toggle {
     position: absolute;
     right: 20px;
     top: 10px;
-    background-color: var(--orange-color);
+    background-color: var(--light-blue);
     color: var(--white-smoke-color);
     border: none;
     padding: 5px 10px;
@@ -115,7 +115,7 @@ article {
     left: 0;
     top: 100px;
     width: 200px;
-    background-color: var(--orange-color);
+    background-color: var(--light-blue);
     color: whitesmoke;
     padding: 10px;
     text-align: center;
@@ -124,7 +124,7 @@ article {
 .banner {
     margin: 40px 0;
     padding: 20px;
-    background-color: var(--yellow-color);
+    background-color: var(--light-purple);
     text-align: center;
 }
 
@@ -138,7 +138,7 @@ article {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: var(--orange-color);
+    background-color: var(--light-blue);
     border: none;
     padding: 10px 15px;
     cursor: pointer;
