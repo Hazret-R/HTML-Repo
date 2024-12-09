@@ -5,8 +5,9 @@ body {
     margin: auto;
     width: 770px;
     display: grid;
-    grid-template-columns: 1fr  1fr  1fr  1fr  1fr  1fr  1fr;
-    grid-template-rows:  1fr  1fr  1fr  1fr  1fr  1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr;
+
 }
 .rectangle {
     margin: 10px;
@@ -45,12 +46,6 @@ body {
     grid-column: span 3;
 }
 
-#rec13 {
-    grid-column: 7;
-    grid-row: 6;
-}
-
-#rec14 {
-    grid-column: 6;
-    grid-row: 2;
+#rec4, #rec9, #rec13 {
+    width: 50px;
 }
