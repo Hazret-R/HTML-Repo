@@ -118,8 +118,8 @@ body {
 
 @media (min-width: 500px) and (max-width: 699px) {
     #canvas {
-        grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-        grid-template-rows: repeat(5, 1fr); /* 5 rows */
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: repeat(5, 1fr); 
         grid-template-areas:
         "rec1 rec2 rec3"
         "rec4 rec5 rec6"
