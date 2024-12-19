@@ -1,0 +1,57 @@
+:root {
+    --header-background-color: rgb(192, 193, 255);
+    --nav-background-color: rgb(255, 229, 144);
+    --main-background-color: rgb(255, 144, 144);
+    --footer-background-color: rgb(255, 144, 240);
+    --padding: 20px;
+    --gap: 10px;
+}
+
+.wrapper {
+    display: grid;
+    height: 100vh;
+    gap: var(--gap);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "hd hd hd hd"
+    "nav nav nav main"
+    "nav nav nav main"
+    "ft ft ft ft";
+}
+
+.header {
+    background-color: var(--header-background-color);
+    padding: var(--padding);
+    grid-area: hd;
+    opacity: 70%;
+    transition: opacity 150ms linear;
+}
+
+.nav {
+    background-color: var(--nav-background-color);
+    padding: var(--padding);
+    grid-area: nav;
+    opacity: 70%;
+    transition: opacity 150ms linear;
+}
+
+.main {
+    background-color: var(--main-background-color);
+    padding: var(--padding);
+    grid-area: main;
+    opacity: 70%;
+    transition: opacity 150ms linear;
+}
+
+.footer {
+    background-color: var(--footer-background-color);
+    padding: var(--padding);
+    grid-area: ft;
+    opacity: 70%;
+    transition: opacity 150ms linear;
+}
+
+.header:hover, .nav:hover, .main:hover, .footer:hover {
+    opacity: 100%;
+}
