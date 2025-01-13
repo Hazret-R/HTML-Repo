@@ -1,0 +1,201 @@
+.container {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(53, 1fr);
+    grid-template-areas: 
+    "header"
+    "header"
+    "box1"
+    "box2"
+    "box3"
+    "box4"
+    "box5"
+    "box6"
+    "box7"
+    "box8"
+    "box9"
+    "main"
+    "main"
+    "main"
+    "main"
+    "main"
+    "main"
+    "main"
+    "main"
+    "main"
+    "main"
+    "sub1"
+    "sub1"
+    "sub1"
+    "sub1"
+    "sub1"
+    "sub1"
+    "sub1"
+    "sub1"
+    "sub1"
+    "sub1"
+    "sub2"
+    "sub2"
+    "sub2"
+    "sub2"
+    "sub2"
+    "sub2"
+    "sub2"
+    "sub2"
+    "sub2"
+    "sub2"
+    "a1"
+    "a1"
+    "a2"
+    "a2"
+    "a3"
+    "a3"
+    "a4"
+    "a4"
+    "a5"
+    "a5"
+    "footer"
+    "footer";
+    gap: 5px;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    grid-area: header;
+}
+
+.box1 {
+    grid-area: box1;
+}
+
+.box2 {
+    grid-area: box2;
+}
+
+.box3 {
+    grid-area: box3;
+}
+
+.box4 {
+    grid-area: box4;
+}
+
+.box5 {
+    grid-area: box5;
+}
+
+.box6 {
+    grid-area: box6;
+}
+
+.box7 {
+    grid-area: box7;
+}
+
+.box8 {
+    grid-area: box8;
+}
+
+.box8 {
+    grid-area: box8;
+}
+
+.nav {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    grid-area: main;
+}
+
+.submain {
+    width: 100%;
+    height: auto;
+    background-color: gray;
+}
+
+.sub1 {
+    grid-area: sub1;
+}
+
+.sub2 {
+    grid-area: sub2;
+}
+
+.aside {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+
+.a1 {
+    grid-area: a1;
+}
+
+.a2 {
+    grid-area: a2;
+}
+
+.a3 {
+    grid-area: a3;
+}
+
+.a4 {
+    grid-area: a4;
+}
+
+.a5 {
+    grid-area: a5;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    grid-area: footer;
+}
+
+@media only screen and (min-width: 500px) {
+    .container {
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: repeat(22, 1fr);
+        grid-template-areas: 
+        "header header header header header header header header header"
+        "header header header header header header header header header"
+        "box1 box2 box3 box4 box5 box6 box7 box8 box9"
+        "main main main main main main main main main"
+        "main main main main main main main main main"
+        "main main main main main main main main main"
+        "main main main main main main main main main"
+        "main main main main main main main main main"
+        "main main main main main main main main main"
+        "main main main main main main main main main"
+        "main main main main main main main main main"
+        "sub1 sub1 sub1 sub1 sub2 sub2 sub2 sub2"
+        "sub1 sub1 sub1 sub1 sub2 sub2 sub2 sub2"
+        "sub1 sub1 sub1 sub1 sub2 sub2 sub2 sub2"
+        "sub1 sub1 sub1 sub1 sub2 sub2 sub2 sub2"
+        "sub1 sub1 sub1 sub1 sub2 sub2 sub2 sub2"
+        "a1 a1 a1 a2 a2 a2 a2 a3 a3 a3"
+        "a1 a1 a1 a2 a2 a2 a2 a3 a3 a3"
+        "a4 a4 a4 a5 a5 a5 a5"
+        "a4 a4 a4 a5 a5 a5 a5"
+        "footer footer footer footer footer footer footer footer footer"
+        "footer footer footer footer footer footer footer footer footer";
+    }
+}
+
+@media only screen and (min-width: 700px) {
+
+}
