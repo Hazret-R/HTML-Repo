@@ -1,0 +1,70 @@
+.flex-item {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Opdracht 1 */
+.flex {
+display: flex;
+background-color: lightgray;
+}
+
+/* Opdracht 2 */
+.flex-direction {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;    
+}
+    
+/* Opdracht 3 */
+.flex-justify {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;     
+}
+    
+/* Opdracht 4 */
+.flex-align {
+    display: flex;
+    align-items: flex-end;
+    background-color: lightgray;       
+}
+    
+/* Opdracht 5 */
+.flex-size {
+    display: flex;
+    background-color: lightgray;       
+}
+    
+/* Opdracht 6 */
+.outer-container {
+    display: flex;
+    background-color: lightgray;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    background-color: lightyellow;
+    margin-right: 20px;
+}
+
+.nested-item {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Opdracht 7 */
+.flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+}
+.flex-item {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+    width: 30%; 
+}
